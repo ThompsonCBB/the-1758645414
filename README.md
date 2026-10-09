@@ -3,7 +3,6 @@
 <img src="docs/media/banner.svg" width="100%" alt="The 1758645414 — something is watching. It never attacks.">
 
 [![Latest release](https://img.shields.io/github/v/release/ThompsonCBB/the-1758645414?style=for-the-badge&color=5c1a1a&label=release)](https://github.com/ThompsonCBB/the-1758645414/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/ThompsonCBB/the-1758645414/total?style=for-the-badge&color=1f2937)](https://github.com/ThompsonCBB/the-1758645414/releases)
 ![Minecraft 1.20.1](https://img.shields.io/badge/minecraft-1.20.1-2f5d1e?style=for-the-badge)
 ![Forge 47](https://img.shields.io/badge/forge-47.x-1f2937?style=for-the-badge)
 
@@ -108,7 +107,7 @@ Works in singleplayer and on servers (needed on both sides).
 
 ## 🛡 Is my world safe?
 
-| | |
+| | What happens |
 |---|---|
 | **Your builds** | Never broken or replaced. New blocks only go into empty air in natural caves. |
 | **Your mobs and villagers** | Can be gone for a day. They come back exactly as they were, trades included. |
