@@ -1,0 +1,4 @@
+{
+  "forest_steps": {"subtitle": "subtitles.anta.forest_steps", "sounds": [{"name": "anta:forest_steps", "stream": false}]},
+  "forest_rustle": {"subtitle": "subtitles.anta.forest_rustle", "sounds": [{"name": "anta:forest_rustle", "stream": false}]}
+}

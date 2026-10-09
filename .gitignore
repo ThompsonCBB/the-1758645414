@@ -1,0 +1,36 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
+
+
+# anta: generated previews
+audio/preview
+# Mojang textures and class dumps extracted for the carcass simulator: never commit
+tools/animsim/vanilla/
+
+# local tool settings, python cache, unused raw generations
+.kiro/
+__pycache__/
+audio/raw/

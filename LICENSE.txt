@@ -1,0 +1,12 @@
+The 1758645414
+Copyright (c) 2026 doxbi. All Rights Reserved.
+
+This mod (code, textures and other assets) may not be copied, modified, redistributed or
+re-uploaded without explicit written permission from the author.
+
+You may:
+- download it from its official CurseForge or Modrinth page and play with it;
+- include it in modpacks distributed through CurseForge or Modrinth, linking to the official page;
+- make videos and streams with it.
+
+Minecraft is a trademark of Mojang AB / Microsoft. This mod is not affiliated with or endorsed by them.
