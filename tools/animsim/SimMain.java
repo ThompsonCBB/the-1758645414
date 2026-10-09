@@ -123,6 +123,29 @@ public final class SimMain {
                             eye, BASE_LEAN, 0f, look[0], look[1], null, tilt));
                 }
             }
+            case "hero" -> {
+                // README demo, one frame per tick (20 fps): it spawns behind the tree while the player looks
+                // away, slowly leans out, the player turns toward it (5 deg/tick), it is noticed by the real
+                // notice cone and hides with the real hide curve; then the empty tree is held for a while.
+                eye = new double[]{-2.4, 1.62, 7.2}; // a bit closer than the other scenes, for README size
+                float[] target = lookAtHead(eye, BASE_LEAN);
+                float turnStart = 50f, noticedAt = -1f, off = 75f;
+                for (int t = 0; t <= 112; t++) {
+                    // Fast turn until it is on screen, then a slow drift: the viewer gets a moment to spot it.
+                    if (t > turnStart) off = Math.max(0f, off - (off > 42f ? 6f : 1.3f));
+                    float yaw = target[0] + off, pitch = target[1] + off * 0.06f;
+                    float lean = WatcherPose.peekLean(BASE_LEAN, t);
+                    if (noticedAt < 0 && lean > 1f
+                            && angleToHead(eye, yaw, pitch, lean) <= WatcherPose.NOTICE_HALF_ANGLE) noticedAt = t;
+                    float recoil = 0f;
+                    if (noticedAt >= 0) {
+                        lean = WatcherPose.hideLean(BASE_LEAN, t - noticedAt);
+                        recoil = WatcherPose.hideRecoil(t - noticedAt);
+                    }
+                    frames.add(new Frame(String.format(Locale.ROOT, "tick %d%s", t, noticedAt >= 0 ? " noticed" : ""),
+                            eye, lean, recoil, yaw, pitch));
+                }
+            }
             default -> throw new IllegalArgumentException("unknown scenario " + scenario);
         }
 

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="The 1758645414 - something is watching">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#07080c"/>
+      <stop offset="0.75" stop-color="#151a22"/>
+      <stop offset="1" stop-color="#0b0e10"/>
+    </linearGradient>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b212b" stop-opacity="0"/>
+      <stop offset="0.7" stop-color="#1b212b" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#0b0e10" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.85"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#sky)"/>
+  <!-- far trunks -->
+  <g fill="#1a1f25">
+    <rect x="40" y="40" width="22" height="230"/><rect x="150" y="20" width="18" height="250"/>
+    <rect x="260" y="50" width="20" height="220"/><rect x="900" y="30" width="20" height="240"/>
+    <rect x="1010" y="45" width="18" height="225"/><rect x="1120" y="25" width="22" height="245"/>
+    <rect x="780" y="60" width="16" height="210"/><rect x="360" y="55" width="16" height="215"/>
+  </g>
+  <rect width="1200" height="300" fill="url(#fog)"/>
+  <!-- near trunks -->
+  <g fill="#050608">
+    <rect x="90" y="0" width="44" height="300"/><rect x="1050" y="0" width="48" height="300"/>
+    <rect x="840" y="0" width="40" height="300"/>
+  </g>
+  <!-- the watcher: a blocky head peeking from behind the right trunk -->
+  <g transform="translate(1098 112)">
+    <rect x="0" y="0" width="26" height="30" fill="#3a3d42"/>
+    <rect x="0" y="0" width="26" height="8" fill="#2b2e33"/>
+    <rect x="4" y="13" width="6" height="4" fill="#0a0a0c"/>
+    <rect x="16" y="13" width="6" height="4" fill="#0a0a0c"/>
+    <rect x="0" y="30" width="22" height="26" fill="#22312f"/>
+  </g>
+  <rect width="1200" height="300" fill="url(#vig)"/>
+  <text x="600" y="150" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="64"
+        letter-spacing="6" fill="#cfcac4">THE 1758645414</text>
+  <text x="600" y="198" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="20"
+        letter-spacing="3" fill="#8a3232">something is watching. it never attacks.</text>
+</svg>

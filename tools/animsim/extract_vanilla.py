@@ -26,9 +26,10 @@ with zipfile.ZipFile(CLIENT) as z:
         data = z.read(f"assets/minecraft/textures/entity/{t}.png")
         with open(os.path.join(OUT, t.replace("/", "_") + ".png"), "wb") as f:
             f.write(data)
-    data = z.read("assets/minecraft/textures/block/grass_block_top.png")
-    with open(os.path.join(OUT, "grass_block_top.png"), "wb") as f:
-        f.write(data)
+    for b in ("grass_block_top", "oak_log", "oak_log_top", "oak_leaves", "dark_oak_log", "dark_oak_log_top"):
+        data = z.read(f"assets/minecraft/textures/block/{b}.png")
+        with open(os.path.join(OUT, b + ".png"), "wb") as f:
+            f.write(data)
 
 if "--javap" in sys.argv:
     cls_dir = os.path.join(OUT, "classes")
