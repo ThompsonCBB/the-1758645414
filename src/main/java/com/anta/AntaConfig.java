@@ -3,7 +3,7 @@ package com.anta;
 import net.minecraftforge.common.ForgeConfigSpec;
 
 /**
- * Settings file: config/the1758645414-common.toml (created on first launch). Read on the server side.
+ * Settings file: config/theonlooker-common.toml (created on first launch). Read on the server side.
  * The /anta on|off commands are runtime switches on top of these (not written to the file).
  */
 public final class AntaConfig {

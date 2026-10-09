@@ -13,7 +13,7 @@ function Prop([string]$name) {
 }
 $version = Prop 'mod_version'
 $mc = Prop 'minecraft_version'
-$jarName = "the1758645414-forge-$mc-$version.jar"
+$jarName = "theonlooker-forge-$mc-$version.jar"
 
 $changelog = Get-Content docs\CHANGELOG.md -Raw -Encoding UTF8
 if ($changelog -notmatch "(?m)^## $([regex]::Escape($version))\b") {

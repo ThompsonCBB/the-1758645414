@@ -1,6 +1,6 @@
 # События и особенности (3.6.0, поправлено в 4.0.0)
 
-Все идеи из `IDEAS.md`, взятые в 3.6.0. Все числа — в `config/the1758645414-common.toml` (`AntaConfig.java`).
+Все идеи из `IDEAS.md`, взятые в 3.6.0. Все числа — в `config/theonlooker-common.toml` (`AntaConfig.java`).
 
 | Что | Код | Как работает |
 |---|---|---|

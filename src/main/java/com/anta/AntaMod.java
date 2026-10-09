@@ -22,7 +22,7 @@ public class AntaMod {
         IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModEntities.ENTITIES.register(modBus);
         com.anta.sound.ModSounds.SOUNDS.register(modBus);
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, AntaConfig.SPEC, "the1758645414-common.toml");
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, AntaConfig.SPEC, "theonlooker-common.toml");
         AntaNetwork.register();
         modBus.addListener(this::onAttributes);
     }

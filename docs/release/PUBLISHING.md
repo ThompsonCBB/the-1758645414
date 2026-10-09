@@ -24,7 +24,7 @@
 
 | Поле | Что вписать |
 |---|---|
-| Project Name | The 1758645414 |
+| Project Name | The Onlooker |
 | Summary | из `SUMMARY.txt` |
 | Description | из `DESCRIPTION.md` (в редакторе выбрать Markdown, вставить целиком) |
 | Main category | Mobs |
@@ -36,8 +36,8 @@
 
 | Поле | Что выбрать |
 |---|---|
-| Файл | `the1758645414-forge-1.20.1-4.6.2.jar` из папки «Anta - версии» |
-| Display name | The 1758645414 4.6.2 |
+| Файл | `theonlooker-forge-1.20.1-4.6.2.jar` из папки «Anta - версии» |
+| Display name | The Onlooker 4.6.2 |
 | Release type | Release |
 | Game versions | 1.20.1, Forge (если спросят Java — 17; Client и Server — оба) |
 | Changelog | из `CHANGELOG_EN.md` |

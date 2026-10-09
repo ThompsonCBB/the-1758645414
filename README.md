@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="docs/media/banner.svg" width="100%" alt="The 1758645414 — something is watching. It never attacks.">
+<img src="docs/media/banner.svg" width="100%" alt="The Onlooker — something is watching. It never attacks.">
 
-[![Latest release](https://img.shields.io/github/v/release/ThompsonCBB/the-1758645414?style=for-the-badge&color=5c1a1a&label=release)](https://github.com/ThompsonCBB/the-1758645414/releases/latest)
+[![Latest release](https://img.shields.io/github/v/release/ThompsonCBB/the-onlooker?style=for-the-badge&color=5c1a1a&label=release)](https://github.com/ThompsonCBB/the-onlooker/releases/latest)
 ![Minecraft 1.20.1](https://img.shields.io/badge/minecraft-1.20.1-2f5d1e?style=for-the-badge)
 ![Forge 47](https://img.shields.io/badge/forge-47.x-1f2937?style=for-the-badge)
 
@@ -17,7 +17,7 @@ Just something standing behind the trees, a little closer every time.
 
 <br><br>
 
-[**Download**](https://github.com/ThompsonCBB/the-1758645414/releases/latest) &nbsp;·&nbsp;
+[**Download**](https://github.com/ThompsonCBB/the-onlooker/releases/latest) &nbsp;·&nbsp;
 [What to expect](#-what-to-expect) &nbsp;·&nbsp;
 [Is my world safe?](#-is-my-world-safe) &nbsp;·&nbsp;
 [Config](#%EF%B8%8F-config) &nbsp;·&nbsp;
@@ -100,7 +100,7 @@ Minecraft-style cubes, no realistic textures. Decoration only. Switch off with `
 ## 📦 Install
 
 1. Install [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html) for **Minecraft 1.20.1** (47.x).
-2. Download the jar from [**Releases**](https://github.com/ThompsonCBB/the-1758645414/releases/latest).
+2. Download the jar from [**Releases**](https://github.com/ThompsonCBB/the-onlooker/releases/latest).
 3. Drop it into `.minecraft/mods`.
 
 Works in singleplayer and on servers (needed on both sides).
@@ -118,7 +118,7 @@ Works in singleplayer and on servers (needed on both sides).
 
 ## ⚙️ Config
 
-`config/the1758645414-common.toml` — every feature can be switched off or tuned.
+`config/theonlooker-common.toml` — every feature can be switched off or tuned.
 
 <details>
 <summary>Most useful settings</summary>
@@ -170,7 +170,7 @@ Full list: [`docs/TESTING.md`](docs/TESTING.md). Test plan: [`docs/TEST_PLAN.md`
 <details><summary><b>Can I kill it?</b></summary><br>No. Arrows and blocks pass through it. Looking at it is the only thing that works, and not always.</details>
 <details><summary><b>It is too often / too rare.</b></summary><br><code>director.intervalMinSeconds</code> and <code>intervalMaxSeconds</code> in the config.</details>
 <details><summary><b>Fabric? 1.21?</b></summary><br>Forge 1.20.1 only for now.</details>
-<details><summary><b>What does the name mean?</b></summary><br>Read it as a timestamp.</details>
+<details><summary><b>Who is the Onlooker?</b></summary><br>Nobody knows. It only watches.</details>
 
 ## 🔧 Under the hood
 
@@ -187,7 +187,7 @@ Design notes live in [`docs/`](docs): [`DIRECTOR.md`](docs/DIRECTOR.md) · [`COV
 
 ## 📜 History
 
-Every build is on the [Releases](https://github.com/ThompsonCBB/the-1758645414/releases) page, 20 versions from the very first one. Before 4.0.0 the mod was called **Anta**.
+Every build is on the [Releases](https://github.com/ThompsonCBB/the-onlooker/releases) page, 20 versions from the very first one. Before 4.0.0 the mod was called **Anta**.
 
 | Version | |
 |---|---|
@@ -195,7 +195,7 @@ Every build is on the [Releases](https://github.com/ThompsonCBB/the-1758645414/r
 | **4.3 – 4.6** | Forests: dead animals, steps behind you, carcass simulator |
 | **4.2** | The brain: five ways to react to your gaze |
 | **4.1** | No contact with the player at all; things vanish for one day, then return |
-| **4.0** | Renamed to *The 1758645414*, full code review |
+| **4.0** | Full code review |
 | **3.3 – 3.6** | Caves: ambush around the corner, strangers' torches and camps, events |
 | **3.0** | The director: it comes by itself, always where you are not looking |
 | **2.0** | It hides when you look at it |
@@ -209,11 +209,11 @@ Full changelog (in Russian): [`docs/CHANGELOG.md`](docs/CHANGELOG.md).
 <summary>Описание</summary>
 <br>
 
-**The 1758645414** — тихий хоррор-мод для Minecraft Forge 1.20.1. Что-то стоит за деревьями и углами и выглядывает. Посмотрите на него — спрячется. Не всегда сразу. Оно не нападает, его нельзя ударить, и оно никогда не исчезает у вас на глазах.
+**The Onlooker** — тихий хоррор-мод для Minecraft Forge 1.20.1. Что-то стоит за деревьями и углами и выглядывает. Посмотрите на него — спрячется. Не всегда сразу. Оно не нападает, его нельзя ударить, и оно никогда не исчезает у вас на глазах.
 
-Мод меняет мир: в пещерах остаются чужие следы, а то, что пропадает, возвращается ровно через игровой день. На серверах изменения общего мира по умолчанию выключены. Всё настраивается в `config/the1758645414-common.toml`.
+Мод меняет мир: в пещерах остаются чужие следы, а то, что пропадает, возвращается ровно через игровой день. На серверах изменения общего мира по умолчанию выключены. Всё настраивается в `config/theonlooker-common.toml`.
 
-Установка: Forge 1.20.1 → jar из [Releases](https://github.com/ThompsonCBB/the-1758645414/releases/latest) → папка `mods`.
+Установка: Forge 1.20.1 → jar из [Releases](https://github.com/ThompsonCBB/the-onlooker/releases/latest) → папка `mods`.
 
 </details>
 

@@ -1,6 +1,6 @@
 **ALPHA VERSION.** This is an early release and may contain bugs. Back up your world before playing.
 
-**The 1758645414** — a horror mod for Minecraft Forge 1.20.1.
+**The Onlooker** — a horror mod for Minecraft Forge 1.20.1.
 
 Something is watching. It never attacks.
 
@@ -17,7 +17,7 @@ Something is watching. It never attacks.
 
 - Minecraft 1.20.1, Forge 47.x, Java 17. No other dependencies.
 - Must be installed on both the client and the server.
-- Settings: `config/the1758645414-common.toml`. Every feature can be switched off there.
+- Settings: `config/theonlooker-common.toml`. Every feature can be switched off there.
 - Operator commands: `/anta`.
 
 This mod's code was written with an AI coding assistant under the author's direction. The author did the design, the testing and the tuning.
@@ -38,4 +38,4 @@ This mod's code was written with an AI coding assistant under the author's direc
 
 Оно не атакует. Его нельзя ударить. Можно только перестать смотреть.
 
-Настройки: config/the1758645414-common.toml
+Настройки: config/theonlooker-common.toml

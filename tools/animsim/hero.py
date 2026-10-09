@@ -150,7 +150,7 @@ def main():
         im = Image.new("RGB", (W, H), (0, 0, 0))
         d = ImageDraw.Draw(im)
         a = min(1.0, k / 6)
-        d.text((W / 2, H / 2 - 12), "THE 1758645414", font=big, anchor="mm", fill=tuple(int(v * a) for v in (205, 200, 195)))
+        d.text((W / 2, H / 2 - 12), "THE ONLOOKER", font=big, anchor="mm", fill=tuple(int(v * a) for v in (205, 200, 195)))
         d.text((W / 2, H / 2 + 30), "something is watching. it never attacks.", font=small, anchor="mm",
                fill=tuple(int(v * a) for v in (120, 40, 40)))
         frames.append(im)
